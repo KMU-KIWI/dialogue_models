@@ -8,6 +8,8 @@ start container with bind mounts `docker run --rm --gpus all -v $(pwd):/src -it 
 
 install dependencies inside container `pip install -r requirements.txt`
 
+install package `pip install -e .`
+
 ### Train dialogue generation models
 
 `python -m train.nlg`
