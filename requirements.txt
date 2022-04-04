@@ -1,0 +1,5 @@
+datasets
+transformers
+pytorch_lightning
+wandb
+sentencepiece
